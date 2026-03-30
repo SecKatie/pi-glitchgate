@@ -66,6 +66,11 @@ export function transformModel(model: GlitchgateModel) {
     },
     contextWindow: model.capabilities?.context_window ?? 128000,
     maxTokens: model.capabilities?.max_tokens ?? 16000,
+    // Glitchgate doesn't support the OpenAI "developer" role,
+    // so we map it to "system" role instead.
+    compat: {
+      supportsDeveloperRole: false,
+    },
   };
 }
 

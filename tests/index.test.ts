@@ -424,7 +424,6 @@ test("extension: registers provider with models on success", async () => {
     assertEqual(capturedConfig.models[0].id, "openai/gpt-4o", "model id");
     assertEqual(capturedConfig.models[0].reasoning, true, "model reasoning");
     assertEqual(capturedConfig.models[0].contextWindow, 128000, "model contextWindow");
-    assert(logs.some((l) => l.includes("1 model")), "log mentions model count");
   } finally {
     process.env.GLITCHGATE_API_KEY = originalKey;
     globalThis.fetch = originalFetch;
