@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# pi-glitchgate
-GlitchGate Pi - Glitch protection for Raspberry Pi projects
-=======
 # glitchgate-pi
 
 Pi coding agent extension that provides access to [Glitchgate](https://glitchgate.corp.mulliken.net) models via API key authentication.
@@ -33,4 +29,3 @@ On startup, the extension fetches the list of available models from the Glitchga
 ## License
 
 MIT
->>>>>>> ce0a93b (Initial commit)
