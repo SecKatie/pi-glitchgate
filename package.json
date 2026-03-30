@@ -1,5 +1,5 @@
 {
-  "name": "glitchgate-pi",
+  "name": "pi-glitchgate",
   "version": "1.0.0",
   "description": "Pi coding agent extension providing access to Glitchgate models via API key authentication",
   "type": "module",
