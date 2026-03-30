@@ -1,6 +1,6 @@
 # glitchgate-pi
 
-Pi coding agent extension that provides access to [Glitchgate](https://glitchgate.corp.mulliken.net) models via API key authentication.
+Pi coding agent extension that provides access to [Glitchgate](https://github.com/SecKatie/glitchgate) models via API key authentication.
 
 ## Setup
 
