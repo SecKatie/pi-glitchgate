@@ -112,7 +112,6 @@ const glitchgate: (pi: ExtensionAPI) => Promise<void> = async (pi) => {
       baseUrl: GLITCHGATE_BASE_URL,
       apiKey: GLITCHGATE_API_KEY_VAR,
       api: "openai-completions",
-      compat: { supportsDeveloperRole: false },
       models,
     });
 
