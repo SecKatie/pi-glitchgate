@@ -1,0 +1,37 @@
+{
+  "name": "glitchgate-pi",
+  "version": "1.0.0",
+  "description": "Pi coding agent extension providing access to Glitchgate models via API key authentication",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx tsx tests/index.test.ts",
+    "prepublishOnly": "tsc"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.63.0"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.63.1",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "glitchgate",
+    "llm",
+    "coding-agent"
+  ],
+  "license": "MIT"
+}
