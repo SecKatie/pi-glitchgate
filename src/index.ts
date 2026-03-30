@@ -115,7 +115,6 @@ const glitchgate: (pi: ExtensionAPI) => Promise<void> = async (pi) => {
       models,
     });
 
-    console.log(`Glitchgate: ${models.length} model(s) loaded`);
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     console.error("Glitchgate: Failed to fetch models:", message);

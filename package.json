@@ -1,6 +1,6 @@
 {
   "name": "pi-glitchgate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pi coding agent extension providing access to Glitchgate models via API key authentication",
   "type": "module",
   "main": "./dist/index.js",
@@ -35,7 +35,9 @@
     "coding-agent"
   ],
   "pi": {
-    "extensions": ["./dist"]
+    "extensions": [
+      "./dist"
+    ]
   },
   "license": "MIT"
 }
